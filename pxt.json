@@ -1,0 +1,34 @@
+{
+    "name": "寻路小车2",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "startbit": "github:lobot-robot/startbit#886393a696ccc643ef3964eb8929855e9a0d665e",
+        "bluetooth": "*",
+        "servo": "*",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
